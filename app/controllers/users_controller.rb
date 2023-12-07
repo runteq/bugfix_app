@@ -12,13 +12,13 @@ class UsersController < ApplicationController
       redirect_to login_path, white: 'ユーザー登録が完了しました。', status: :see_other
     else
       flash.now[:danger] = 'ユーザー登録に失敗しました。'
-      render :new, status: :unprocessable_entity
+      redirect_to login_path
     end
   end
 
   private
 
   def user_params
-    params.require(:user).permit(:name, :email, :password, :password_confirmation)
+    params.require(:user).permit(:name, :email, :password)
   end
 end
