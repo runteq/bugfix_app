@@ -1,3 +1,14 @@
+### スライドのURL
+<details><summary></summary>
+
+```
+https://docs.google.com/presentation/d/1k17529b6w1AvygcRPHnI28xqzjZWbZdcizeq8GBscDI/edit?usp=sharing
+```
+
+</details>
+
+<br /><br />
+
 # 環境構築
 ## 1. リポジトリのダウンロード
 以下のURLにアクセスしてダウンロードを実行してください。
