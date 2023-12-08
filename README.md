@@ -48,7 +48,7 @@ $ docker attach bugifx_app_container
 ## 6.Railsコンソールを立ち上げる
 別ターミナルを開き、以下のコマンドを実行してRailsコンソールを立ち上げてください。
 ```
-$ dockeer compose exec web rails c
+$ docker compose exec web rails c
 ```
 
 ## 7.ブラウザでアプリケーションにアクセス
