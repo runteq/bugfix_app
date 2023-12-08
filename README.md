@@ -81,7 +81,7 @@ bugfix_appには複数のバグが存在します。
 それらのバグを修正してください。
 
 ```
-■ バグを解消するためのお助け
+■ バグを解消するためのお助けツール
 - ログ
 - binding.pry ＆ docker attach コンテナ名
 - Railsコンソール（docker compose exec web rails c）
